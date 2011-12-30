@@ -20,7 +20,7 @@ Next you'll need to install [Sinatra] to serve up the app:
 Now you're set to boot up the app:
 
 ```
-$ ruby -rubygems app.rb
+$ ruby app.rb
 
 [2011-12-24 16:27:55] INFO  WEBrick 1.3.1<br>
 [2011-12-24 16:27:55] INFO  ruby 1.9.2 (2011-07-09) [x86_64-darwin10.8.0]<br>
@@ -30,12 +30,8 @@ $ ruby -rubygems app.rb
 
 Now visit http://0.0.0.0:4567 and you should be greeted by "Hello Viewport"
 
-  [sencha touch]: http://www.sencha.com/products/touch/
-  [rvm]: http://beginrescueend.com/
-  [sinatra]: http://sinatrarb.com
-
 ##Notes
-Application is using Sencha Touch 2, PR 3, which you can find at `./public/javascripts/touch/sencha-touch-all-debug.js`
+Application is using Sencha Touch 2 PR 3 via CDN, which you can find at `http://dev.sencha.com/deploy/sencha-touch-2-pr3/{resources/css/sencha-touch.css,sencha-touch-all-debug.js}`
 
 ##MIT License
 
@@ -59,3 +55,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+  [sencha touch]: http://www.sencha.com/products/touch/
+  [rvm]: http://beginrescueend.com/
+  [sinatra]: http://sinatrarb.com
