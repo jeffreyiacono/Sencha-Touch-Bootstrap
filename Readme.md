@@ -6,9 +6,10 @@ Get a new [Sencha Touch] application quickly up and running. Useful for starting
 
 Clone this repo into a new directory:
 
-`$ mkdir sencha-touch-bootstrap-app && cd $_`
-
-`$ git clone git://github.com/jeffreyiacono/Sencha-Touch-Bootstrap.git`
+```
+$ mkdir sencha-touch-bootstrap-app && cd $_
+$ git clone git://github.com/jeffreyiacono/Sencha-Touch-Bootstrap.git
+```
 
 If you are using [rvm] the repo contains a default `/.rvmrc` file that uses a project setup of `ruby-1.9.2@st-app-gemset`. Change as needed.
 
@@ -18,14 +19,14 @@ Next you'll need to install [Sinatra] to serve up the app:
 
 Now you're set to boot up the app:
 
-`$ ruby -rubygems app.rb`
+```
+$ ruby -rubygems app.rb
 
-<code>
 [2011-12-24 16:27:55] INFO  WEBrick 1.3.1<br>
 [2011-12-24 16:27:55] INFO  ruby 1.9.2 (2011-07-09) [x86_64-darwin10.8.0]<br>
 == Sinatra/1.3.1 has taken the stage on 4567 for development with backup from WEBrick<br>
 [2011-12-24 16:27:55] INFO  WEBrick::HTTPServer#start: pid=12269 port=4567
-</code>
+```
 
 Now visit http://0.0.0.0:4567 and you should be greeted by "Hello Viewport"
 
