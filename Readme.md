@@ -30,6 +30,12 @@ $ ruby app.rb
 
 Now visit http://0.0.0.0:4567 and you should be greeted by "Hello Viewport"
 
+If you have bundler installed, just run:
+
+`$ bundle`
+
+... and Sinatra will be installed for you.
+
 ##Notes
 Application is using Sencha Touch 2 PR 3 via CDN, which you can find at `http://dev.sencha.com/deploy/sencha-touch-2-pr3/{resources/css/sencha-touch.css,sencha-touch-all-debug.js}`
 
