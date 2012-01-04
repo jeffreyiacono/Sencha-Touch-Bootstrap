@@ -30,7 +30,7 @@ $ ruby app.rb
 
 Now visit http://0.0.0.0:4567 and you should be greeted by "Hello Viewport"
 
-If you have bundler installed, just run:
+If you are using bundler, just run:
 
 `$ bundle`
 
